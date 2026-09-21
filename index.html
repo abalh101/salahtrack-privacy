@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index,follow">
+  <meta name="description" content="Datenschutzerklärung und Impressum für die SalahTrack App">
+  <title>Datenschutz & Impressum – SalahTrack</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f6f8f6;
+      --card: #ffffff;
+      --text: #17211b;
+      --muted: #5d6a62;
+      --line: #dfe6e1;
+      --accent: #1f6b45;
+      --soft: #eaf4ee;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #101512;
+        --card: #171d19;
+        --text: #eef5f0;
+        --muted: #b5c1b9;
+        --line: #2b352e;
+        --accent: #78d6a2;
+        --soft: #1c2b22;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+    }
+    main {
+      width: min(880px, calc(100% - 32px));
+      margin: 40px auto;
+    }
+    header, section {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 28px;
+      margin-bottom: 18px;
+    }
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      font-weight: 700;
+      color: var(--accent);
+      margin-bottom: 12px;
+    }
+    .dot {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background: var(--accent);
+    }
+    h1 { font-size: clamp(2rem, 5vw, 3rem); margin: 0 0 8px; line-height: 1.1; }
+    h2 { margin-top: 0; font-size: 1.35rem; }
+    h3 { font-size: 1.05rem; margin-bottom: 6px; }
+    p, li { color: var(--text); }
+    .muted { color: var(--muted); }
+    .notice {
+      background: var(--soft);
+      border-left: 4px solid var(--accent);
+      padding: 14px 16px;
+      border-radius: 10px;
+      margin-top: 18px;
+    }
+    a { color: var(--accent); }
+    code {
+      background: var(--soft);
+      padding: 2px 6px;
+      border-radius: 6px;
+    }
+    footer {
+      text-align: center;
+      color: var(--muted);
+      padding: 16px 0 36px;
+      font-size: .9rem;
+    }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <div class="brand"><span class="dot"></span>SalahTrack</div>
+    <h1>Datenschutzerklärung</h1>
+    <p class="muted">Stand: 21. September 2026</p>
+    <p>
+      Diese Datenschutzerklärung beschreibt, wie die mobile App <strong>SalahTrack</strong>
+      mit personenbezogenen und gerätebezogenen Daten umgeht.
+    </p>
+  </header>
+
+  <section>
+    <h2>1. Verantwortlicher</h2>
+    <p>
+      Abdulrahman Al Hamidi<br>
+      Universitätsstr. 70<br>
+      40225 Düsseldorf<br>
+      Deutschland<br>
+      E-Mail: <a href="mailto:ar830222@gmail.com">ar830222@gmail.com</a><br>
+      LinkedIn: Abdulrahman Al Hamidi
+    </p>
+  </section>
+
+  <section>
+    <h2>2. Grundsatz der Datenverarbeitung</h2>
+    <p>
+      SalahTrack ist als lokal ausgerichtete Gebets-App konzipiert. Es gibt derzeit kein
+      SalahTrack-Benutzerkonto und kein eigenes SalahTrack-Backend, auf das Gebets- oder
+      Ramadan-Verläufe hochgeladen werden. Ein großer Teil der App-Daten wird ausschließlich
+      lokal auf dem Gerät gespeichert.
+    </p>
+    <p>
+      Für bestimmte Funktionen, insbesondere die Berechnung von Gebetszeiten und die
+      Standortsuche, können jedoch Daten an externe Dienste übertragen werden. Diese
+      Übertragungen werden nachfolgend beschrieben.
+    </p>
+  </section>
+
+  <section>
+    <h2>3. Standortdaten</h2>
+    <p>
+      Wenn du die automatische Standortbestimmung aktivierst, kann SalahTrack deinen
+      ungefähren oder genauen Standort verwenden, um Gebetszeiten und die Qibla-Richtung
+      für deinen Standort bereitzustellen. Die Standortfreigabe ist optional. Alternativ
+      kann ein Ort manuell ausgewählt werden.
+    </p>
+    <p>
+      Standortinformationen wie Breiten- und Längengrad, Stadt, Land, Zeitzone sowie die
+      Auswahl zwischen automatischem und manuellem Standort können lokal auf dem Gerät
+      gespeichert werden.
+    </p>
+    <p>
+      SalahTrack fordert in der derzeit geprüften Version keine dauerhafte
+      Hintergrund-Standortberechtigung an.
+    </p>
+  </section>
+
+  <section>
+    <h2>4. Gebetszeiten und AlAdhan API</h2>
+    <p>
+      Zur Berechnung bzw. zum Abruf von Gebetszeiten verwendet SalahTrack den Dienst
+      <strong>AlAdhan</strong> über <code>api.aladhan.com</code>. Hierbei können insbesondere
+      Breiten- und Längengrad sowie für die Berechnung notwendige Parameter wie Monat,
+      Jahr, Berechnungsmethode, Asr-Schule und Regeln für hohe Breitengrade über eine
+      HTTPS-Verbindung übertragen werden.
+    </p>
+    <p>
+      Bei einer Internetverbindung fallen technisch bedingt außerdem Verbindungsdaten wie
+      die IP-Adresse beim jeweiligen Netzwerk- bzw. Diensteanbieter an.
+    </p>
+    <p>
+      SalahTrack übermittelt dabei nach der derzeit geprüften Implementierung keine
+      SalahTrack-Benutzer-ID, Werbe-ID oder selbst erzeugte Geräte-ID.
+    </p>
+    <p>
+      Für die Datenverarbeitung durch externe Anbieter gelten zusätzlich deren eigene
+      Datenschutzbedingungen. SalahTrack macht keine Aussage über eine konkrete
+      Aufbewahrungsdauer bei AlAdhan, solange diese nicht verlässlich bestätigt ist.
+    </p>
+  </section>
+
+  <section>
+    <h2>5. Geocoding und manuelle Ortssuche</h2>
+    <p>
+      Wenn du einen Ort manuell suchst oder Koordinaten in einen Ortsnamen umwandeln lässt,
+      können Ortsangaben oder Koordinaten über die vom Betriebssystem bereitgestellten
+      Geocoding-Dienste verarbeitet werden. Je nach Gerät und Plattform kann dabei ein
+      Plattform- oder Systemanbieter, beispielsweise Apple oder Google, beteiligt sein.
+    </p>
+  </section>
+
+  <section>
+    <h2>6. Lokal gespeicherte Daten</h2>
+    <p>Je nach Nutzung können insbesondere folgende Informationen lokal auf deinem Gerät gespeichert werden:</p>
+    <ul>
+      <li>Gebetszeiten und zwischengespeicherte Gebetspläne,</li>
+      <li>Gebetsstatus wie gebetet, verpasst, übersprungen oder verschoben,</li>
+      <li>Zeitpunkte von Bestätigungen und Erinnerungen,</li>
+      <li>Ramadan-Aktivitäten wie Fastenstatus, Tarawih/Qiyam und persönliche Ziele,</li>
+      <li>Standort- und Berechnungseinstellungen,</li>
+      <li>Sprache, Design- und Benachrichtigungseinstellungen,</li>
+      <li>weitere App-Einstellungen und lokale Statusinformationen.</li>
+    </ul>
+    <p>
+      Diese Informationen werden nach der derzeit geprüften Implementierung nicht an ein
+      SalahTrack-Backend übertragen. Gebets- und Ramadan-Verläufe können Rückschlüsse auf
+      religiöse Praxis zulassen und werden deshalb als besonders schützenswerte lokale
+      Informationen behandelt.
+    </p>
+  </section>
+
+  <section>
+    <h2>7. Qibla und Kompass</h2>
+    <p>
+      Die Qibla-Richtung wird anhand der Standortdaten berechnet. Der aktuelle
+      Kompasswert kann zur Darstellung der Richtung verwendet werden. Der laufende
+      Kompasswert wird nach der derzeit geprüften Implementierung nicht dauerhaft
+      gespeichert oder an ein SalahTrack-Backend übertragen.
+    </p>
+  </section>
+
+  <section>
+    <h2>8. Benachrichtigungen</h2>
+    <p>
+      SalahTrack kann lokale Benachrichtigungen für Gebete, Erinnerungen, Snooze,
+      Freitagsgebet und Ramadan-Funktionen planen. Die hierfür notwendigen
+      Benachrichtigungsdaten werden lokal durch die App bzw. das Betriebssystem verwaltet.
+      Die derzeit geprüfte Version verwendet keinen eigenen Remote-Push-Server und keine
+      SalahTrack-Push-Token-Infrastruktur.
+    </p>
+  </section>
+
+  <section>
+    <h2>9. Analyse, Werbung und Tracking</h2>
+    <p>
+      In der derzeit geprüften Version wurden keine Werbe-, Tracking-, Analytics- oder
+      Crash-Reporting-SDKs wie Google Mobile Ads, Firebase Analytics, Crashlytics, Meta,
+      AppsFlyer, Adjust, Amplitude, Mixpanel oder Sentry verwendet.
+    </p>
+    <p>
+      SalahTrack verwendet nach der derzeit geprüften Implementierung keine Werbe-ID zur
+      Nachverfolgung von Nutzern.
+    </p>
+  </section>
+
+  <section>
+    <h2>10. In-App-Bewertungen</h2>
+    <p>
+      SalahTrack kann die von Apple bzw. Google bereitgestellte Systemoberfläche für eine
+      App-Bewertung öffnen. Dabei können die normalen Store-Dienste des jeweiligen
+      Plattformanbieters kontaktiert werden. SalahTrack erhält den Inhalt deiner Bewertung
+      dadurch nicht direkt.
+    </p>
+  </section>
+
+  <section>
+    <h2>11. Speicherung und Löschung</h2>
+    <p>
+      Lokal gespeicherte Gebets- und Ramadan-Daten besitzen in der derzeit geprüften
+      Version keine automatische allgemeine Aufbewahrungsfrist. Lokale App-Daten können
+      durch Löschen der App bzw. – soweit das Betriebssystem dies anbietet – durch Löschen
+      der App-Daten entfernt werden.
+    </p>
+    <p>
+      Sofern SalahTrack vor Veröffentlichung eine eigene Funktion „Lokale Daten löschen“
+      erhält, wird diese Datenschutzerklärung entsprechend aktualisiert.
+    </p>
+  </section>
+
+  <section>
+    <h2>12. Datensicherheit</h2>
+    <p>
+      Netzwerkaufrufe der SalahTrack-Gebetszeitenfunktion an AlAdhan erfolgen über HTTPS.
+      Lokal gespeicherte Daten befinden sich im App-Sandbox-Bereich des Betriebssystems.
+      Die derzeit geprüfte Implementierung enthält keine zusätzliche
+      Anwendungsschicht-Verschlüsselung für SQLite oder SharedPreferences.
+    </p>
+  </section>
+
+  <section>
+    <h2>13. Berechtigungen</h2>
+    <p>
+      SalahTrack fragt nur Berechtigungen an, die für aktivierte Funktionen benötigt
+      werden. Dazu können insbesondere Standort- und Benachrichtigungsberechtigungen
+      gehören. Berechtigungen können über die Systemeinstellungen von iOS bzw. Android
+      widerrufen werden. Einzelne Funktionen können danach eingeschränkt sein.
+    </p>
+  </section>
+
+  <section>
+    <h2>14. Rechte betroffener Personen</h2>
+    <p>
+      Soweit die gesetzlichen Voraussetzungen vorliegen, bestehen insbesondere Rechte auf
+      Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung,
+      Datenübertragbarkeit sowie Widerspruch gegen bestimmte Verarbeitungen. Eine erteilte
+      Einwilligung kann grundsätzlich mit Wirkung für die Zukunft widerrufen werden.
+    </p>
+    <p>
+      Datenschutzanfragen können an <a href="mailto:ar830222@gmail.com">ar830222@gmail.com</a> gerichtet werden.
+      Außerdem besteht nach Maßgabe des anwendbaren Datenschutzrechts ein Beschwerderecht
+      bei einer zuständigen Datenschutzaufsichtsbehörde.
+    </p>
+  </section>
+
+  <section>
+    <h2>15. Änderungen dieser Datenschutzerklärung</h2>
+    <p>
+      Diese Datenschutzerklärung wird angepasst, wenn sich Funktionen, verwendete Dienste,
+      Berechtigungen oder Datenflüsse von SalahTrack ändern. Die jeweils aktuelle Fassung
+      wird über diese Seite bereitgestellt.
+    </p>
+  </section>
+
+
+  <section id="impressum">
+    <h2>Impressum</h2>
+    <p><strong>Angaben gemäß § 5 DDG</strong></p>
+    <p>
+      Abdulrahman Al Hamidi<br>
+      Universitätsstr. 70<br>
+      40225 Düsseldorf<br>
+      Deutschland
+    </p>
+    <h3>Kontakt</h3>
+    <p>E-Mail: <a href="mailto:ar830222@gmail.com">ar830222@gmail.com</a></p>
+  </section>
+
+  <footer>
+    SalahTrack · Datenschutzerklärung · Stand 21. September 2026
+  </footer>
+</main>
+</body>
+</html>
